@@ -1,0 +1,86 @@
+#nav {
+    padding:20px 70px;
+    /*overflow:auto;*/
+    min-width:200px;
+}
+
+.container {
+    min-width:100px;
+    margin:0 auto;
+}
+
+#logo {
+    /*display: block;*/
+    text-align: center;
+}
+#logo img {
+    height:100px;
+}
+
+
+#nav-links {
+    min-width:100px;
+    margin:0 auto;
+    text-align: center;
+    padding-right: 40px;
+    overflow:auto;
+}
+#nav-links ul {
+    list-style-type: none;
+}
+.nav-items {
+    padding:10px 20px;
+    margin-bottom:10px;
+}
+#nav-links a {
+
+    text-decoration: none;
+}
+#nav:after {
+    clear:both;
+}
+
+/**************MENU ICON***************/
+#menu-icon-view {
+    width:50px;
+    margin:0 auto;
+    overflow:auto;
+}
+#menu-icon-view div{
+    width: 40px;
+    height: 7px;
+    margin: 6px 0;
+    background-color:#111;
+}
+/**************END OF MENU ICON***************/
+
+/**************MENU CROSS***************/
+#menu-icon-close {
+    width:100px;
+    margin:0 auto;
+    /*overflow:auto;*/
+    height:100px;
+    position: relative;
+}
+.bar{
+    width: 40px;
+    height: 5px;
+    margin: 6px 0;
+    background-color:#111;
+    right: 35%;
+    top:10%;
+}
+#menu-icon-close #c1{
+  position: absolute;
+  -ms-transform: rotate(45deg); /* IE 9 */
+  -webkit-transform: rotate(45deg); /* Safari */
+  transform: rotate(45deg);
+}
+#menu-icon-close #c2{
+  position: absolute;
+  -ms-transform: rotate(-45deg); /* IE 9 */
+  -webkit-transform: rotate(-45deg); /* Safari */
+  transform: rotate(-45deg);    
+}
+
+/**************END OF MENU CROSS***************/

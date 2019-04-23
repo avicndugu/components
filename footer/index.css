@@ -1,0 +1,21 @@
+#footer {
+    padding:20px 70px;
+    text-align: center;
+}
+
+#footer-links {
+    padding-bottom: 10px;
+}
+
+#footer-links ul {
+    list-style-type: none;
+}
+
+#footer-links li{
+    display:inline;
+}
+
+#footer-links a {
+    text-decoration: none;
+    margin-right:50px;
+}

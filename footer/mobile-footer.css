@@ -1,0 +1,26 @@
+#footer {
+    padding:20px 70px;
+    background-color: green;
+}
+
+#footer-links {
+    padding-bottom: 10px;
+    width:70%;
+    margin: 0 auto;
+}
+
+#footer-links ul {
+    list-style-type: none;
+}
+
+#footer-links li{
+    padding:10px 20px;
+}
+
+#footer-links a {
+    text-decoration: none;
+
+}
+#copyright {
+    text-align: center;
+}
