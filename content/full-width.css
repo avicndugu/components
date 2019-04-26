@@ -1,0 +1,47 @@
+.content{
+    width:100%;
+    background-color: red;
+}
+
+.one-twelfth {
+    width: 8%;
+}
+
+.two-twelfth {
+    width:16%;
+}
+
+.three-twelfth {
+    width: 25%;
+}
+
+.four-twelfth{
+    width:33%;
+}
+
+.five-twelfth {
+    width:41%;
+}
+
+.six-twelfth {
+    width:50%;
+}
+
+.seven-twelfth {
+    width: 58%;
+}
+.eight-twelfth {
+    width:66%;
+}
+.nine-twelfth {
+    width: 75%;
+}
+.ten-twelfth {
+    width: 83%;
+}
+.eleven-twelfth {
+    width:91%;
+}
+.all-twelfth {
+    width:100%;
+}
