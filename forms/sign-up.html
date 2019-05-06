@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign up</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../normalize.css">
+    <style type="text/css">
+        /** {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}*/
+        .sign-up {
+            background-color: orange;
+            width:400px;
+            margin:0 auto;
+            padding:5%;
+        }
+        .sign-up h3 {
+            text-align: center;
+        }
+        input[type="text"],input[type="email"],input[type="password"],input[type="submit"] {
+            /*Solves the problem of input elements not being the same size*/
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            width:100%;
+            padding:10px 20px;
+
+        }
+        label {
+            line-height: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="sign-up">
+        <h3>Learn web development</h3>
+        <form id="signup">
+            <label for="username">Username<br>
+            <input type="text" name="username" id="username"></label><br>
+            <label for="email">Email<br>
+            <input type="email" name="email" id="email"></label><br>
+            <label for="password">Password<br>
+            <input type="password" name="password" id="password"></label><br>
+            <p><small>Make sure your password has atleast 8 characters.</small></p>
+            <input type="submit" value="Sign up for free" class="submit">
+            <p><small>By clicking Sign up for free, you agree to our <a href="#">terms of service</a></small></p>
+        </form>
+    </div>
+</body>
+</html>
