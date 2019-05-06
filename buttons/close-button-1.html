@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <style type="text/css">
+        #menu-icon-close {
+            width:100px;
+            height:100px;
+            position: relative;
+        }
+        .bar{
+            width: 50%;
+            height: 7%;
+            margin: 6px 0;
+            background-color:#111;
+            right: 35%;
+            top:10%;
+        }
+        #menu-icon-close #c1{
+          position: absolute;
+          -ms-transform: rotate(45deg); /* IE 9 */
+          -webkit-transform: rotate(45deg); /* Safari */
+          transform: rotate(45deg);
+        }
+        #menu-icon-close #c2{
+          position: absolute;
+          -ms-transform: rotate(-45deg); /* IE 9 */
+          -webkit-transform: rotate(-45deg); /* Safari */
+          transform: rotate(-45deg);    
+        }
+    </style>
+</head>
+<body>
+    <div id="menu-icon-close">
+        <div id="c1" class="bar"></div>
+        <div id="c2" class="bar"></div>
+    </div>
+</body>
+</html>
+

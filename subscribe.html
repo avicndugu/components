@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Subscribe</title>
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <style type="text/css">
+        .subscribe {
+            background-color: #eee;
+        }
+        #form-1 {
+            padding:20px;
+        }
+        #form-1 input {
+            padding:20px;
+            border:solid 5px green;
+        }
+        #form-2 {
+            padding:20px;
+        }
+        #form-1 .form-button {
+            background-color: orange;
+            position: relative;
+            right:10px;
+        }
+
+        #form-2 .in-button {
+            background-color: #fff;
+            width: 400px;
+            padding:5px;
+        }
+        #form-2 #email{
+            border:none;
+            width:70%;
+        }
+        #form-2 .form-button{
+            width: 28%;
+            padding: 8px 10px;
+            border:solid 3px green;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="subscribe">
+        <h3>Receive our newsletter</h3>
+        <form id="form-1">
+            <input type="email" name="email" placeholder="your email">
+            <input type="submit" value="subscribe" class="form-button"><br>
+            <input type="checkbox" name="newsletter" value="newsletter">Allow us to send you a monthly newsletter
+        </form>
+        <form id="form-2">
+            <div class="in-button">
+                <input type="email" name="email" placeholder="your email" id="email">
+                <input type="submit" value="subscribe" class="form-button">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

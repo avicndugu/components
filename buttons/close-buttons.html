@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Button</title>
+    <meta charset="utf-8">
+    <style type="text/css">
+        a{
+            font-size: 30px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <a href="#">&times;</a>
+</body>
+</html>
+
+
+Method 2
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Button</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style type="text/css">
+        .fa-close {
+            font-size: 50px;
+        }
+        .fa-window-close {
+            font-size: 50px;
+        }
+
+    </style>
+</head>
+<body>
+    <i class="fa fa-close" aria-hidden="true"></i>
+    <i class="fa fa-window-close" aria-hidden="true"></i>
+</body>
+</html>
+
+Method 3
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <style type="text/css">
+        #menu-icon-close {
+            width:100px;
+            height:100px;
+            position: relative;
+        }
+        .bar{
+            width: 50%;
+            height: 7%;
+            margin: 6px 0;
+            background-color:#111;
+            right: 35%;
+            top:10%;
+        }
+        #menu-icon-close #c1{
+          position: absolute;
+          -ms-transform: rotate(45deg); /* IE 9 */
+          -webkit-transform: rotate(45deg); /* Safari */
+          transform: rotate(45deg);
+        }
+        #menu-icon-close #c2{
+          position: absolute;
+          -ms-transform: rotate(-45deg); /* IE 9 */
+          -webkit-transform: rotate(-45deg); /* Safari */
+          transform: rotate(-45deg);    
+        }
+    </style>
+</head>
+<body>
+    <div id="menu-icon-close">
+        <div id="c1" class="bar"></div>
+        <div id="c2" class="bar"></div>
+    </div>
+</body>
+</html>
+

@@ -3,3 +3,46 @@ Popups are usually called modals in frameworks like bootstrap, material ui or bu
 If you have ever wanted to create a popup image or form, I am sure you might have seen enough examples that require you to use a framework. However, you can create a custom popup using html and css.
 
 lets do this.
+
+
+how to make a close button(X) for beginners (3 proven methods that works)
+A few days ago, I was looking for ways to add a X-close button to a project I was working on. I looked up online and I found some methods that works. You can use either of the following three methods for your projects.
+    1. Using  html only 
+    2. Using font awesome icon
+    3. Using html and css only
+
+    Create a drawing a custom close element using html and css
+
+Using html only
+You can use the letter x for close buttons. However, the multiplication symbol looks much better than the letter x for close buttons. You write the multication symbol as &times; in html. It is a html entity.[[link html entities article here]]  
+To ensure this method always works for you, include the meta tag  charset to UTF-8 (<meta charset="UTF-8">), on the head of each page.
+
+Example
+
+
+Advantages
+Uses html only
+Works seamlessly across all browsers
+
+disadvantages
+There surely are none.
+Further reading: https://wesbos.com/times-html-entity-close-button/
+
+Method 2: using font awesome icon
+Font awesome has a set of useful icons and a close icon is one of them. if you already have font awesome in your project, just add:
+
+wherever you want to add the x icon. 
+To add font awesome to your project, add this code in the head of the page. 
+
+Method 3:
+Draw a custom x symbol using css
+
+
+Once you have your button ready, you can try one of the animations on close button [[https://freefrontend.com/css-close-buttons/]]
+
+Method 4: Using an image
+
+
+This is the method I would least recommend
+
+Download the icon or create the icon
