@@ -1,0 +1,34 @@
+/*layout content and sidebar*/
+@media (min-width: 48em) {
+    .content {
+        display: grid;
+        grid-template-columns: auto 220px;
+        grid-column-gap: 35px;
+        padding: 2em 3em;
+    }
+    .post-content {
+        padding: 2em 3em;
+    }
+}
+
+@media (min-width: 64em) {
+    .content {
+        display: grid;
+        grid-template-columns: auto 350px;
+        padding: 0 4em;
+    }
+    .post-content {
+        padding: 2em 3em;
+    }
+}
+/*End of layout content and sidebar*/
+
+.card {
+  padding:20px;
+  border:solid 2px #02781c22;
+  margin-bottom:2em;
+}
+
+.post-content {
+    border:solid 2px #02781c22;
+}

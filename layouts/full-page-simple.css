@@ -1,0 +1,18 @@
+/*full page centered blog layout*/
+
+.content, header, footer {
+    padding:0em 2em;
+}
+
+@media (min-width: 48em) {
+   .content, header, footer {
+        padding: 4em;
+    }
+}
+
+@media (min-width: 64em) {
+    .content, header, footer {
+        padding: 0 8em;
+    }
+}
+/*End of full page centered blog layout*/
