@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mobile responsive youtube embed</title>
+	<style type="text/css">
+		.youtube-responsive {
+		    overflow: hidden;
+		    position: relative;
+		    width:100%;
+		}
+		.youtube-responsive::after {
+		    padding-top: 56.25%;
+		    display: block;
+		    content: '';
+		}
+		.youtube-responsive iframe {
+		    position: absolute;
+		    top: 0;
+		    left: 0;
+		    width: 100%;
+		    height: 100%;
+		}
+	</style>
+</head>
+<body>
+	<div class="youtube-responsive">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/JEsLhyAaaFI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>		
+	</div>
+
+
+</body>
+</html>
