@@ -38,6 +38,37 @@
             padding: 8px 10px;
             border:solid 3px green;
         }
+        #form-3 {
+            padding:20px;
+        }
+        #form-3 input {
+            padding:20px;
+            border:solid 3px green;
+        }
+        #form-3 .form-button {
+            background-color: #02781c;
+            position: relative;
+            right:10px;
+            color:#fff;
+        }
+        #form-4 {
+            display:flex;
+            flex-wrap: wrap;
+        }
+        #form-4 input{
+            flex-grow: 1;
+            padding-top:1em;
+            padding-bottom:1em;
+            margin-bottom:10px;
+        }
+
+        #form-4 input[type="email"] {
+            border:solid 0.14em #02781c;
+        }
+        #form-4 input[type="submit"]{
+            background-color: #02781c;
+            color:#fff;
+        }
 
     </style>
 </head>
@@ -54,6 +85,15 @@
                 <input type="email" name="email" placeholder="your email" id="email">
                 <input type="submit" value="subscribe" class="form-button">
             </div>
+        </form>
+        <form id="form-3">
+            <input type="email" name="email" placeholder="your email">
+            <input type="submit" value="subscribe" class="form-button"><br>
+            <input type="checkbox" name="newsletter" value="newsletter">Allow us to send you a monthly newsletter
+        </form>
+        <form id="form-4">
+            <input type="email" name="email" placeholder="your email">
+            <input type="submit" value="subscribe" class="form-button">
         </form>
     </div>
 </body>
