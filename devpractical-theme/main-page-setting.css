@@ -14,8 +14,8 @@
         display:flex;
         justify-content:space-between;
         padding:2rem 2rem 0rem 2rem;
-        border-bottom:1px solid rgba(200,200,200,1);
-	    box-shadow: 0 4px 10px 0px rgba(200,200,200,1);
+        border-bottom:1px solid rgba(2,120,28,0.39);
+	    box-shadow: 0 2px 10px 0px rgba(2,120,28,0.39);
     }
     /*End of layout navbar*/
 }
@@ -74,8 +74,8 @@ body {
 }
 
 header{
-	border-bottom:1px solid rgba(200,200,200,1);
-    box-shadow: 0 4px 10px 0px rgba(200,200,200,1);
+    border-bottom:1px solid rgba(2,120,28,0.39);
+    box-shadow: 0 2px 10px 0px rgba(2,120,28,0.39);
 }
 
 a {
@@ -577,7 +577,7 @@ a.pagination-item:hover {
 }
 
 .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+  box-shadow: 0 8px 16px 0 rgba(2,120,28,0.39);
 }
 
 .card-row p {
