@@ -85,14 +85,14 @@ a {
 }
 
 .aside {
-  padding: 1rem 1rem;
+  padding:1rem 2rem 0rem 1rem;
 }
 .aside a {
   text-decoration:none;
 }
 
 .main {
-  padding:2rem 1rem;
+  padding:2rem 2rem 0rem 2rem;
 }
 
 footer {
